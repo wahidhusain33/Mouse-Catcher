@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Mouse Catcher</title>
+</head>
+
+<body>
+    <div class="score">
+        <p>Score: <span id="scoreId"></span></p>
+        <p>Time: <span id="time"></span></p>
+        <p id="highScore" class="">HighScore:</p>
+        <progress value="0" max="10" id="progressBar"></progress>
+    </div>
+
+    <div class="play">
+        <div id="div1">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse1" onclick="click12()">
+        </div>
+        <div id="div2">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse2" onclick="click12()">
+        </div>
+        <div id="div3">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse3" onclick="click12()">
+        </div>
+        <div id="div4">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse4" onclick="click12()">
+        </div>
+        <div id="div5">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse5" onclick="click12()">
+        </div>
+        <div id="div6">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse6" onclick="click12()">
+        </div>
+        <div id="div7">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse7" onclick="click12()">
+        </div>
+        <div id="div8">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse8" onclick="click12()">
+        </div>
+        <div id="div9">
+            <img src="mouse.png" alt="Catch Me" class="mouse" id="mouse9" onclick="click12()">
+        </div>
+    </div>
+    <div id="finalScore">
+        <p id="show" class="popUp">Oops! Better luck next time.</p>
+        <p id="showHScore" class=""></p>
+        <a href="index.html" class="homebut"><input type="button" value="Home" id="home"></a>
+    </div>
+
+    <script src="index.js">
+        
+    </script>
+ 
+</body>
+
+</html>
